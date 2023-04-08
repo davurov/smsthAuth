@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0F613729C1D69300E682A4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F613529C1D69300E682A4 /* CollectionViewCell.swift */; };
+		3D0F613829C1D69300E682A4 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0F613629C1D69300E682A4 /* CollectionViewCell.xib */; };
+		3D2DB00F29B1B0D70032A72B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DB00E29B1B0D70032A72B /* AuthManager.swift */; };
+		3D7F05AB29B0E02700446105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F05AA29B0E02700446105 /* AppDelegate.swift */; };
+		3D7F05B429B0E02800446105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F05B329B0E02800446105 /* Assets.xcassets */; };
+		3D7F05B729B0E02800446105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F05B529B0E02800446105 /* LaunchScreen.storyboard */; };
+		3D9F344C29B1D21400EE057F /* SmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F344A29B1D21400EE057F /* SmsVC.swift */; };
+		3D9F344D29B1D21400EE057F /* SmsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9F344B29B1D21400EE057F /* SmsVC.xib */; };
+		3DC1D30F29B1CD6400EC1E6A /* PhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1D30D29B1CD6400EC1E6A /* PhoneVC.swift */; };
+		3DC1D31029B1CD6400EC1E6A /* PhoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1D30E29B1CD6400EC1E6A /* PhoneVC.xib */; };
+		3DC1D31329B1CE9F00EC1E6A /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1D31129B1CE9F00EC1E6A /* AccountController.swift */; };
+		3DC1D31429B1CE9F00EC1E6A /* AccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1D31229B1CE9F00EC1E6A /* AccountController.xib */; };
+		3DE032CC29B1AFA2002474E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DE032CB29B1AFA2002474E4 /* GoogleService-Info.plist */; };
+		CCD70EA5AEE416368D221D5C /* Pods_smsAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441ADA763382BC97911A1A07 /* Pods_smsAuth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D0F613529C1D69300E682A4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3D0F613629C1D69300E682A4 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		3D2DB00E29B1B0D70032A72B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		3D7F05A729B0E02700446105 /* smsAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smsAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7F05AA29B0E02700446105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D7F05B329B0E02800446105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D7F05B629B0E02800446105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D7F05B829B0E02800446105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9F344A29B1D21400EE057F /* SmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsVC.swift; sourceTree = "<group>"; };
+		3D9F344B29B1D21400EE057F /* SmsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmsVC.xib; sourceTree = "<group>"; };
+		3DC1D30D29B1CD6400EC1E6A /* PhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVC.swift; sourceTree = "<group>"; };
+		3DC1D30E29B1CD6400EC1E6A /* PhoneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneVC.xib; sourceTree = "<group>"; };
+		3DC1D31129B1CE9F00EC1E6A /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		3DC1D31229B1CE9F00EC1E6A /* AccountController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountController.xib; sourceTree = "<group>"; };
+		3DE032CB29B1AFA2002474E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		441ADA763382BC97911A1A07 /* Pods_smsAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smsAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594DE349EA6C297E9F53709B /* Pods-smsAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smsAuth.release.xcconfig"; path = "Target Support Files/Pods-smsAuth/Pods-smsAuth.release.xcconfig"; sourceTree = "<group>"; };
+		7AEE40DF2894C5CDFC2AC2C2 /* Pods-smsAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smsAuth.debug.xcconfig"; path = "Target Support Files/Pods-smsAuth/Pods-smsAuth.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7F05A429B0E02700446105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD70EA5AEE416368D221D5C /* Pods_smsAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B9AEE2C89A9DD9EEF5B575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				441ADA763382BC97911A1A07 /* Pods_smsAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D6607CF29B20536007B675C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1D31129B1CE9F00EC1E6A /* AccountController.swift */,
+				3D0F613529C1D69300E682A4 /* CollectionViewCell.swift */,
+				3DC1D30D29B1CD6400EC1E6A /* PhoneVC.swift */,
+				3D9F344A29B1D21400EE057F /* SmsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D6607D029B20549007B675C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1D30E29B1CD6400EC1E6A /* PhoneVC.xib */,
+				3D9F344B29B1D21400EE057F /* SmsVC.xib */,
+				3DC1D31229B1CE9F00EC1E6A /* AccountController.xib */,
+				3D0F613629C1D69300E682A4 /* CollectionViewCell.xib */,
+				3D7F05B529B0E02800446105 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D6607D129B2056E007B675C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3D7F05AA29B0E02700446105 /* AppDelegate.swift */,
+				3D2DB00E29B1B0D70032A72B /* AuthManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3D7F059E29B0E02700446105 = {
+			isa = PBXGroup;
+			children = (
+				3D7F05A929B0E02700446105 /* smsAuth */,
+				3D7F05A829B0E02700446105 /* Products */,
+				47AF5F11F0F74A4A7D295E11 /* Pods */,
+				23B9AEE2C89A9DD9EEF5B575 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7F05A829B0E02700446105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7F05A729B0E02700446105 /* smsAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7F05A929B0E02700446105 /* smsAuth */ = {
+			isa = PBXGroup;
+			children = (
+				3D6607D129B2056E007B675C /* Helper */,
+				3D6607CF29B20536007B675C /* Controllers */,
+				3D6607D029B20549007B675C /* Views */,
+				3D7F05B329B0E02800446105 /* Assets.xcassets */,
+				3DE032CB29B1AFA2002474E4 /* GoogleService-Info.plist */,
+				3D7F05B829B0E02800446105 /* Info.plist */,
+			);
+			path = smsAuth;
+			sourceTree = "<group>";
+		};
+		47AF5F11F0F74A4A7D295E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AEE40DF2894C5CDFC2AC2C2 /* Pods-smsAuth.debug.xcconfig */,
+				594DE349EA6C297E9F53709B /* Pods-smsAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7F05A629B0E02700446105 /* smsAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7F05BB29B0E02800446105 /* Build configuration list for PBXNativeTarget "smsAuth" */;
+			buildPhases = (
+				67F37057553A8203DB445DC1 /* [CP] Check Pods Manifest.lock */,
+				3D7F05A329B0E02700446105 /* Sources */,
+				3D7F05A429B0E02700446105 /* Frameworks */,
+				3D7F05A529B0E02700446105 /* Resources */,
+				D7586E3287D50AAB4D9CEFB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smsAuth;
+			productName = smsAuth;
+			productReference = 3D7F05A729B0E02700446105 /* smsAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D7F059F29B0E02700446105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3D7F05A629B0E02700446105 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3D7F05A229B0E02700446105 /* Build configuration list for PBXProject "smsAuth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D7F059E29B0E02700446105;
+			productRefGroup = 3D7F05A829B0E02700446105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7F05A629B0E02700446105 /* smsAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7F05A529B0E02700446105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7F05B729B0E02800446105 /* LaunchScreen.storyboard in Resources */,
+				3D0F613829C1D69300E682A4 /* CollectionViewCell.xib in Resources */,
+				3DE032CC29B1AFA2002474E4 /* GoogleService-Info.plist in Resources */,
+				3D9F344D29B1D21400EE057F /* SmsVC.xib in Resources */,
+				3D7F05B429B0E02800446105 /* Assets.xcassets in Resources */,
+				3DC1D31029B1CD6400EC1E6A /* PhoneVC.xib in Resources */,
+				3DC1D31429B1CE9F00EC1E6A /* AccountController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67F37057553A8203DB445DC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smsAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7586E3287D50AAB4D9CEFB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smsAuth/Pods-smsAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smsAuth/Pods-smsAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smsAuth/Pods-smsAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7F05A329B0E02700446105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9F344C29B1D21400EE057F /* SmsVC.swift in Sources */,
+				3DC1D30F29B1CD6400EC1E6A /* PhoneVC.swift in Sources */,
+				3D0F613729C1D69300E682A4 /* CollectionViewCell.swift in Sources */,
+				3D2DB00F29B1B0D70032A72B /* AuthManager.swift in Sources */,
+				3D7F05AB29B0E02700446105 /* AppDelegate.swift in Sources */,
+				3DC1D31329B1CE9F00EC1E6A /* AccountController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D7F05B529B0E02800446105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7F05B629B0E02800446105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D7F05B929B0E02800446105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D7F05BA29B0E02800446105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D7F05BC29B0E02800446105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEE40DF2894C5CDFC2AC2C2 /* Pods-smsAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W6F238426;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smsAuth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myCompany.smsAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D7F05BD29B0E02800446105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594DE349EA6C297E9F53709B /* Pods-smsAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W6F238426;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smsAuth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myCompany.smsAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7F05A229B0E02700446105 /* Build configuration list for PBXProject "smsAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7F05B929B0E02800446105 /* Debug */,
+				3D7F05BA29B0E02800446105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7F05BB29B0E02800446105 /* Build configuration list for PBXNativeTarget "smsAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7F05BC29B0E02800446105 /* Debug */,
+				3D7F05BD29B0E02800446105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D7F059F29B0E02700446105 /* Project object */;
+}

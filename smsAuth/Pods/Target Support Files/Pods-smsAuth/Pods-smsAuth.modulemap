@@ -1,0 +1,6 @@
+framework module Pods_smsAuth {
+  umbrella header "Pods-smsAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
